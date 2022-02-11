@@ -23,8 +23,8 @@ public class SplashScreen extends AppCompatActivity {
     }
 
     private void abreTelaPrincipal() {
-        //Intent i = new Intent(this, Principal.class);
-        //startActivity(i);
+        Intent i = new Intent(this, Principal.class);
+        startActivity(i);
         finish();
     }
 }
