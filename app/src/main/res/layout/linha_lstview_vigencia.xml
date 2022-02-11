@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <AbsoluteLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="5dip"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="50dp"
+            android:layout_x="17dp"
+            android:layout_y="1dp"
+            android:background="#707070" />
+
+        <View
+            android:layout_width="20dip"
+            android:layout_height="20dip"
+            android:layout_gravity="center"
+            android:layout_marginLeft="-15dp"
+            android:layout_x="10dp"
+            android:layout_y="42dp"
+            android:background="@drawable/forma_redonda" />
+
+    </AbsoluteLayout>
+
+    <AbsoluteLayout
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/calendario" />
+
+        <TextView
+            android:id="@+id/numeroMesDeReferencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_x="22dp"
+            android:layout_y="33dp"
+            android:text=""
+            android:textColor="@color/azul_principal"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </AbsoluteLayout>
+
+    <TextView
+        android:id="@+id/nomeMesDeReferencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:text=""
+        android:textColor="@color/azul_principal"
+        android:textSize="40dp" />
+</LinearLayout>
