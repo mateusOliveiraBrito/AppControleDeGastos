@@ -23,11 +23,12 @@
             android:src="@drawable/seta_esquerda" />
 
         <TextView
+            android:id="@+id/txtAnoDeReferencia"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_weight=".8"
-            android:text="2022"
+            android:text=""
             android:textAlignment="center"
             android:textColor="#6E83B7"
             android:textSize="30dp"

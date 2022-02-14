@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Repositorios/Android/AppControleDeGastos/app/src/main/res/drawable/caixa_de_botao_azul.xml" value="0.26614583333333336" />
+        <entry key="..\:/Repositorios/Android/AppControleDeGastos/app/src/main/res/drawable/caixa_de_formulario.xml" value="0.26614583333333336" />
         <entry key="..\:/Repositorios/Android/AppControleDeGastos/app/src/main/res/drawable/forma_redonda.xml" value="0.26614583333333336" />
+        <entry key="..\:/Repositorios/Android/AppControleDeGastos/app/src/main/res/layout/activity_cadastro_de_vigencia.xml" value="0.264" />
         <entry key="..\:/Repositorios/Android/AppControleDeGastos/app/src/main/res/layout/activity_main.xml" value="0.15" />
         <entry key="..\:/Repositorios/Android/AppControleDeGastos/app/src/main/res/layout/activity_principal.xml" value="0.2" />
         <entry key="..\:/Repositorios/Android/AppControleDeGastos/app/src/main/res/layout/activity_splash_screen.xml" value="0.264" />
